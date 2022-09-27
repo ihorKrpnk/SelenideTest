@@ -23,6 +23,5 @@ public class SelenideTask {
         $(By.xpath("//span[@class='cart-label']")).click();
         $(By.xpath("//td[@class='product']//div[@class='attributes'][contains(text(),'Processor: 2.5 GHz Intel Pentium Dual-Core E2200 [')]"))
                 .shouldHave(text("HDD: 320 GB")).shouldHave(text("RAM: 8GB"));
-
     }
 }
